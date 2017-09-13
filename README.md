@@ -69,4 +69,4 @@ Note that you have to import NumPy first as *np* at the beginning of your code. 
 
 # Reference
 ---
-1. *Linking new trial evidence to systematic reviews: a novel matrix factorisation approach using shared latent spaces*. Didi Surian, Adam G. Dunn, Liat Orenstein, Rabia Bashir, Enrico Coiera, Florence T. Bourgeois. [*Submitted to Journal of Biomedical Informatics, 2017*].
+1. *Linking new trial evidence to systematic reviews: a novel matrix factorisation approach using shared latent spaces*. Didi Surian, Adam G. Dunn, Liat Orenstein, Rabia Bashir, Enrico Coiera, Florence T. Bourgeois. [*Under preparation for Journal of Biomedical Informatics, 2017*].
