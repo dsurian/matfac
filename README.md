@@ -1,5 +1,5 @@
 # Matrix factorisation with shared latent space
-This is an implementation of matrix factorisation with shared latent space in Cython used in [1]. The decomposition process shares a similarity with [2], but with different regularisation and implementation. Given two matrices, **R** and **T**, where **R** is trials vs features matrix (e.g. tf-idf, LDA topic distributions, etc.) and **T** trials vs systematic reviews matrix with missing information (i.e. link information), the aim is to predict missing values in **T**, i.e. the missing link information between trial and systematic reviews. See [1] for more details.
+This is an implementation of matrix factorisation with shared latent space in Cython used in [1]. Given two matrices, **R** and **T**, where **R** is trials vs features matrix (e.g. tf-idf, LDA topic distributions, etc.) and **T** trials vs systematic reviews matrix with missing information (i.e. link information), the aim is to predict missing values in **T**, i.e. the missing link information between trial and systematic reviews. See [1] for more details.
 
 
 ### Environment
@@ -70,5 +70,3 @@ Note that you have to import NumPy first as *np* at the beginning of your code. 
 # Reference
 ---
 1. *Linking new trial evidence to systematic reviews: a novel matrix factorisation approach using shared latent spaces*. Didi Surian, Adam G. Dunn, Liat Orenstein, Rabia Bashir, Enrico Coiera, Florence T. Bourgeois. [*Submitted to Journal of Biomedical Informatics, 2017*].
-2. *TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings*. G. Guo, J. Zhang and N. Yorke-Smith. Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI), 2015, 123-129.
-
