@@ -31,7 +31,7 @@ and call:
 ```python
 T_est = np.asarray(matfac.run(R, T, estP, estP, estQ, estW, PS_K, numNonZeroT, K, numRow, numCol1, numCol2, numIter, alpha_par, lambda_par, lambda_t_par, T_est, VERBOSE))
 ```
-Note that you have to import NumPy first as *np* at the beginning of your code. The script has been optimised to minimise the Python interaction so it could run faster. In order to do so, some variables are initiated in advance in the Python code. Below is the description of the input and output:
+Note that you have to import NumPy first as *np* at the beginning of your code. The script has been optimised to minimise the Python interaction so it could run faster. In order to do so, some variables are initiated in advance in the Python code. The initialisation values and regularisation parameters may need to be adapted to your own application. Below is the description of the input and output:
 
 #### Input:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**R** : *ndarray*, [*n_samples*, *n_features_1*]. *n_features_1* is the column size of **R**.
