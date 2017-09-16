@@ -1,5 +1,5 @@
-# Matrix factorisation with shared latent space
-This is an implementation of matrix factorisation with shared latent space in Cython used in [1]. Given two matrices, **R** and **T**, where **R** is trials vs features matrix (e.g. tf-idf, LDA topic distributions, etc.) and **T** trials vs systematic reviews matrix with missing information (i.e. link information), the aim is to predict missing values in **T**, i.e. the missing link information between trial and systematic reviews. See [1] for more details.
+# Matrix factorisation with a shared latent space
+This is an implementation of matrix factorisation with a shared latent space in Cython used in [1]. Given two matrices, **R** and **T**, where **R** is trials vs features matrix (e.g. tf-idf, LDA topic distributions, etc.) and **T** trials vs systematic reviews matrix with missing information (i.e. link information), the aim is to predict missing values in **T**, i.e. the missing link information between trial and systematic reviews. See [1] for more details.
 
 
 ### Environment
