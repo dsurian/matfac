@@ -1,0 +1,373 @@
+Dataset,Method,Feature Representation,Median Rank,Recall@10,Recall@25,Recall@50,Recall@100,Recall@150,Recall@200,Recall@250,Recall@300
+PubMed-Embrase,Factorisation (latent factors=5),LDA_20,84,0.089097304,0.186400938,0.335873388,0.547479484,0.672919109,0.751465416,0.81066823,0.87045721
+PubMed-Embrase,Factorisation (latent factors=5),LDA_50,68,0.113716295,0.246189918,0.42028136,0.597889801,0.695193435,0.754982415,0.81066823,0.876905041
+PubMed-Embrase,Factorisation (latent factors=5),LDA_100,53,0.123681125,0.284290739,0.481828839,0.656506448,0.752637749,0.827667057,0.866940211,0.899179367
+PubMed-Embrase,Factorisation (latent factors=5),LDA_200,52,0.133059789,0.302461899,0.491793669,0.662954279,0.764361079,0.839976553,0.883352872,0.905041032
+PubMed-Embrase,Factorisation (latent factors=5),LDA_300,58,0.124853458,0.287807737,0.463657679,0.657678781,0.767878077,0.835873388,0.879835873,0.905627198
+PubMed-Embrase,Factorisation (latent factors=5),LDA_400,58,0.124853458,0.279601407,0.461313013,0.648886284,0.752051583,0.822977726,0.864595545,0.895076202
+PubMed-Embrase,Factorisation (latent factors=5),PCA_tfidf_20,86,0.082649472,0.213364596,0.372215709,0.538100821,0.654747948,0.734466589,0.810082063,0.87866354
+PubMed-Embrase,Factorisation (latent factors=5),PCA_count_20,33605,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=5),PCA_tfidf_50,54,0.118405627,0.28898007,0.48007034,0.65123095,0.737397421,0.792497069,0.839390387,0.890973036
+PubMed-Embrase,Factorisation (latent factors=5),PCA_count_50,32473.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=5),PCA_tfidf_100,50,0.127198124,0.302461899,0.506447831,0.677608441,0.776670574,0.841148886,0.875732708,0.9003517
+PubMed-Embrase,Factorisation (latent factors=5),PCA_count_100,30571.5,0,0,0,0,0,0.002344666,0.003516999,0.003516999
+PubMed-Embrase,Factorisation (latent factors=5),PCA_tfidf_200,53,0.122508792,0.290152403,0.485345838,0.662954279,0.760257913,0.834114889,0.882180539,0.906213365
+PubMed-Embrase,Factorisation (latent factors=5),PCA_count_200,30395,0,0,0,0.002930832,0.003516999,0.004689332,0.004689332,0.004689332
+PubMed-Embrase,Factorisation (latent factors=5),PCA_tfidf_300,63,0.11137163,0.266119578,0.436694021,0.634818288,0.750293083,0.828253224,0.869871043,0.895076202
+PubMed-Embrase,Factorisation (latent factors=5),PCA_count_300,30914.5,0,0,0.001172333,0.003516999,0.005275498,0.005275498,0.005275498,0.005275498
+PubMed-Embrase,Factorisation (latent factors=5),PCA_tfidf_400,59.5,0.118991794,0.275498242,0.457209848,0.640679953,0.749706917,0.822977726,0.862250879,0.895662368
+PubMed-Embrase,Factorisation (latent factors=5),PCA_count_400,28134.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=5),fullDim_Binary,58305.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=5),fullDim_Count,74734,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=5),fullDim_Tfidf,16542,0.087338804,0.124267292,0.147713951,0.174677608,0.190504103,0.204572098,0.209847597,0.214536928
+PubMed-Embrase,Factorisation (latent factors=10),LDA_20,92,0.110785463,0.224501758,0.365767878,0.531066823,0.677608441,0.760257913,0.823563892,0.886283705
+PubMed-Embrase,Factorisation (latent factors=10),LDA_50,85,0.120164127,0.231535756,0.373974209,0.541617819,0.674091442,0.762602579,0.824150059,0.879249707
+PubMed-Embrase,Factorisation (latent factors=10),LDA_100,44,0.172919109,0.356975381,0.543376319,0.706916764,0.795427902,0.839390387,0.875146542,0.905041032
+PubMed-Embrase,Factorisation (latent factors=10),LDA_200,42,0.173505275,0.367526377,0.543376319,0.722743259,0.809495897,0.85873388,0.892145369,0.915592028
+PubMed-Embrase,Factorisation (latent factors=10),LDA_300,46,0.169988277,0.358147714,0.524618992,0.702813599,0.796014068,0.851699883,0.888042204,0.907971864
+PubMed-Embrase,Factorisation (latent factors=10),LDA_400,49,0.165298945,0.345838218,0.508792497,0.698710434,0.781946073,0.844079719,0.88042204,0.905041032
+PubMed-Embrase,Factorisation (latent factors=10),PCA_tfidf_20,104,0.096131301,0.202227433,0.341735053,0.484759672,0.669988277,0.74912075,0.825908558,0.888042204
+PubMed-Embrase,Factorisation (latent factors=10),PCA_count_20,8375.5,0,0,0,0,0.002930832,0.004103165,0.004103165,0.005275498
+PubMed-Embrase,Factorisation (latent factors=10),PCA_tfidf_50,94,0.120164127,0.226846424,0.371043376,0.51992966,0.662954279,0.746189918,0.818288394,0.86869871
+PubMed-Embrase,Factorisation (latent factors=10),PCA_count_50,6453,0,0.004103165,0.005275498,0.005275498,0.005275498,0.005275498,0.005861665,0.006447831
+PubMed-Embrase,Factorisation (latent factors=10),PCA_tfidf_100,43,0.182883939,0.371629543,0.541031653,0.718053927,0.805978898,0.852872216,0.879249707,0.907385698
+PubMed-Embrase,Factorisation (latent factors=10),PCA_count_100,6726.5,0,0.000586166,0.004689332,0.005275498,0.005275498,0.005275498,0.005275498,0.005275498
+PubMed-Embrase,Factorisation (latent factors=10),PCA_tfidf_200,42,0.172332943,0.368112544,0.543376319,0.723329426,0.810082063,0.857561547,0.890973036,0.915592028
+PubMed-Embrase,Factorisation (latent factors=10),PCA_count_200,20467.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=10),PCA_tfidf_300,47,0.16940211,0.353458382,0.522274326,0.702813599,0.794255569,0.851699883,0.886283705,0.906799531
+PubMed-Embrase,Factorisation (latent factors=10),PCA_count_300,19672,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=10),PCA_tfidf_400,49,0.155920281,0.344665885,0.511723329,0.694021102,0.777256741,0.842321219,0.881008206,0.903868699
+PubMed-Embrase,Factorisation (latent factors=10),PCA_count_400,19751,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=10),fullDim_Binary,64745.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=10),fullDim_Count,73196,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=10),fullDim_Tfidf,9657,0.101992966,0.143024619,0.175849941,0.205744431,0.220398593,0.232121923,0.246189918,0.253223916
+PubMed-Embrase,Factorisation (latent factors=20),LDA_20,79,0.117819461,0.236225088,0.379835873,0.573856975,0.702227433,0.774325909,0.836459555,0.883352872
+PubMed-Embrase,Factorisation (latent factors=20),LDA_50,111,0.038100821,0.097889801,0.208675264,0.45017585,0.684056272,0.783704572,0.846424385,0.88862837
+PubMed-Embrase,Factorisation (latent factors=20),LDA_100,105,0.036342321,0.113716295,0.247362251,0.478311841,0.684056272,0.776670574,0.836459555,0.888042204
+PubMed-Embrase,Factorisation (latent factors=20),LDA_200,35,0.2010551,0.411488863,0.596131301,0.746776084,0.824736225,0.86869871,0.896834701,0.912075029
+PubMed-Embrase,Factorisation (latent factors=20),LDA_300,39,0.185228605,0.389214537,0.56975381,0.740328253,0.817702227,0.865767878,0.889214537,0.906799531
+PubMed-Embrase,Factorisation (latent factors=20),LDA_400,42,0.177608441,0.364009379,0.556271981,0.720398593,0.80890973,0.847010551,0.881008206,0.903868699
+PubMed-Embrase,Factorisation (latent factors=20),PCA_tfidf_20,56,0.152989449,0.316529894,0.477725674,0.627198124,0.708675264,0.771395076,0.828253224,0.88862837
+PubMed-Embrase,Factorisation (latent factors=20),PCA_count_20,1772.5,0,0,0,0.004103165,0.005275498,0.006447831,0.00996483,0.024618992
+PubMed-Embrase,Factorisation (latent factors=20),PCA_tfidf_50,86,0.116647128,0.239742087,0.381008206,0.556858148,0.691676436,0.757327081,0.827080891,0.88042204
+PubMed-Embrase,Factorisation (latent factors=20),PCA_count_50,5096,0,0,0,0,0,0,0,0.001172333
+PubMed-Embrase,Factorisation (latent factors=20),PCA_tfidf_100,105,0.036342321,0.110199297,0.235052755,0.472450176,0.684642438,0.776084408,0.84056272,0.892731536
+PubMed-Embrase,Factorisation (latent factors=20),PCA_count_100,6082,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=20),PCA_tfidf_200,35,0.201641266,0.412075029,0.596717468,0.747948417,0.824150059,0.869871043,0.896834701,0.911488863
+PubMed-Embrase,Factorisation (latent factors=20),PCA_count_200,6138,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=20),PCA_tfidf_300,39,0.184642438,0.389214537,0.56975381,0.73915592,0.817116061,0.865181712,0.888042204,0.906213365
+PubMed-Embrase,Factorisation (latent factors=20),PCA_count_300,6728.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=20),PCA_tfidf_400,44,0.172332943,0.36049238,0.53985932,0.700468933,0.783118406,0.841148886,0.878077374,0.900937866
+PubMed-Embrase,Factorisation (latent factors=20),PCA_count_400,6668.5,0,0,0,0,0,0,0.000586166,0.001172333
+PubMed-Embrase,Factorisation (latent factors=20),fullDim_Binary,63665.5,0,0,0,0,0,0.000586166,0.001172333,0.001758499
+PubMed-Embrase,Factorisation (latent factors=20),fullDim_Count,68072.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=20),fullDim_Tfidf,2686,0.118991794,0.212192263,0.278429074,0.315943728,0.332356389,0.347596717,0.361664713,0.369871043
+PubMed-Embrase,Factorisation (latent factors=30),LDA_20,83,0.122508792,0.236811254,0.383352872,0.557444314,0.684642438,0.767878077,0.837631887,0.883939039
+PubMed-Embrase,Factorisation (latent factors=30),LDA_50,70,0.138921454,0.273739742,0.407971864,0.576201641,0.684056272,0.765533411,0.822977726,0.879835873
+PubMed-Embrase,Factorisation (latent factors=30),LDA_100,106,0.033997655,0.121922626,0.233880422,0.474208675,0.699882767,0.787221571,0.847010551,0.886869871
+PubMed-Embrase,Factorisation (latent factors=30),LDA_200,35,0.198124267,0.411488863,0.593786635,0.749706917,0.83059789,0.872801876,0.896248535,0.915005862
+PubMed-Embrase,Factorisation (latent factors=30),LDA_300,38,0.185814771,0.392731536,0.576201641,0.746776084,0.824736225,0.863423212,0.884525205,0.907385698
+PubMed-Embrase,Factorisation (latent factors=30),LDA_400,42,0.178194607,0.366940211,0.54982415,0.706330598,0.791910903,0.846424385,0.875732708,0.899765533
+PubMed-Embrase,Factorisation (latent factors=30),PCA_tfidf_20,53,0.165298945,0.334701055,0.491793669,0.637162954,0.70926143,0.773739742,0.836459555,0.88862837
+PubMed-Embrase,Factorisation (latent factors=30),PCA_count_20,857,0,0,0.004689332,0.005861665,0.012895662,0.042203986,0.082649472,0.123094959
+PubMed-Embrase,Factorisation (latent factors=30),PCA_tfidf_50,42,0.179953107,0.372215709,0.546893318,0.7010551,0.775498242,0.82883939,0.875146542,0.905627198
+PubMed-Embrase,Factorisation (latent factors=30),PCA_count_50,2887,0,0,0,0,0.000586166,0.002930832,0.005861665,0.015826495
+PubMed-Embrase,Factorisation (latent factors=30),PCA_tfidf_100,81.5,0.126611958,0.248534584,0.383939039,0.565650645,0.682883939,0.762016413,0.822391559,0.881594373
+PubMed-Embrase,Factorisation (latent factors=30),PCA_count_100,3798,0,0,0,0,0,0,0.000586166,0.004689332
+PubMed-Embrase,Factorisation (latent factors=30),PCA_tfidf_200,35,0.198124267,0.410902696,0.593786635,0.749706917,0.831184056,0.873388042,0.896248535,0.915592028
+PubMed-Embrase,Factorisation (latent factors=30),PCA_count_200,3317,0,0,0,0,0,0,0.005275498,0.015240328
+PubMed-Embrase,Factorisation (latent factors=30),PCA_tfidf_300,38,0.185228605,0.392145369,0.573856975,0.745603751,0.824150059,0.864009379,0.883939039,0.907385698
+PubMed-Embrase,Factorisation (latent factors=30),PCA_count_300,3886.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=30),PCA_tfidf_400,42,0.178780774,0.366354045,0.549237984,0.706330598,0.792497069,0.848182884,0.876318875,0.9003517
+PubMed-Embrase,Factorisation (latent factors=30),PCA_count_400,4873.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=30),fullDim_Binary,34303,0.001172333,0.005275498,0.005275498,0.008206331,0.00996483,0.012309496,0.014067995,0.014067995
+PubMed-Embrase,Factorisation (latent factors=30),fullDim_Count,65441,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=30),fullDim_Tfidf,835,0.106682298,0.232121923,0.341735053,0.393317702,0.404454865,0.414419695,0.420867526,0.43024619
+PubMed-Embrase,Factorisation (latent factors=40),LDA_20,81,0.124267292,0.236225088,0.389800703,0.566236811,0.68933177,0.76905041,0.838218054,0.885697538
+PubMed-Embrase,Factorisation (latent factors=40),LDA_50,85,0.120750293,0.23094959,0.366354045,0.554513482,0.680539273,0.767878077,0.830011723,0.890973036
+PubMed-Embrase,Factorisation (latent factors=40),LDA_100,72,0.136576788,0.274325909,0.413247362,0.573856975,0.686987104,0.766119578,0.823563892,0.879835873
+PubMed-Embrase,Factorisation (latent factors=40),LDA_200,37,0.200468933,0.415005862,0.589097304,0.75087925,0.832356389,0.876318875,0.899179367,0.916178195
+PubMed-Embrase,Factorisation (latent factors=40),LDA_300,38,0.189917937,0.395662368,0.575615475,0.747948417,0.823563892,0.865767878,0.89038687,0.909144197
+PubMed-Embrase,Factorisation (latent factors=40),LDA_400,40,0.177608441,0.383939039,0.555685815,0.718053927,0.800117233,0.856975381,0.884525205,0.901524033
+PubMed-Embrase,Factorisation (latent factors=40),PCA_tfidf_20,51,0.171746776,0.335287222,0.497655334,0.643610785,0.718053927,0.776670574,0.834114889,0.89038687
+PubMed-Embrase,Factorisation (latent factors=40),PCA_count_20,660,0,0.004103165,0.005275498,0.007620164,0.030480657,0.082649472,0.144196952,0.1992966
+PubMed-Embrase,Factorisation (latent factors=40),PCA_tfidf_50,88,0.11957796,0.231535756,0.365767878,0.545134818,0.674091442,0.754396249,0.819460727,0.883939039
+PubMed-Embrase,Factorisation (latent factors=40),PCA_count_50,1897.5,0,0,0,0.000586166,0.008792497,0.028135991,0.055099648,0.074443142
+PubMed-Embrase,Factorisation (latent factors=40),PCA_tfidf_100,38,0.196951934,0.4003517,0.582649472,0.740328253,0.816529894,0.863423212,0.895662368,0.912661196
+PubMed-Embrase,Factorisation (latent factors=40),PCA_count_100,1916.5,0,0,0,0.000586166,0.005275498,0.028722157,0.055685815,0.077373974
+PubMed-Embrase,Factorisation (latent factors=40),PCA_tfidf_200,36,0.199882767,0.412661196,0.587924971,0.752051583,0.831184056,0.875732708,0.899179367,0.915592028
+PubMed-Embrase,Factorisation (latent factors=40),PCA_count_200,2317,0,0,0,0,0,0.005861665,0.01992966,0.036928488
+PubMed-Embrase,Factorisation (latent factors=40),PCA_tfidf_300,38,0.188745604,0.396248535,0.576787808,0.747362251,0.822977726,0.866354045,0.89038687,0.909144197
+PubMed-Embrase,Factorisation (latent factors=40),PCA_count_300,2462,0,0,0,0,0,0.002930832,0.015826495,0.038100821
+PubMed-Embrase,Factorisation (latent factors=40),PCA_tfidf_400,39,0.179953107,0.382180539,0.569167644,0.732708089,0.814771395,0.856389215,0.881594373,0.903282532
+PubMed-Embrase,Factorisation (latent factors=40),PCA_count_400,2553.5,0,0,0,0,0,0.001172333,0.005275498,0.025205158
+PubMed-Embrase,Factorisation (latent factors=40),fullDim_Binary,27397,0.001758499,0.005275498,0.008206331,0.014067995,0.016412661,0.029308324,0.035169988,0.036928488
+PubMed-Embrase,Factorisation (latent factors=40),fullDim_Count,65961.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=40),fullDim_Tfidf,413.5,0.127198124,0.233880422,0.345838218,0.41031653,0.439624853,0.458968347,0.473622509,0.483001172
+PubMed-Embrase,Factorisation (latent factors=50),LDA_20,77.5,0.127784291,0.257327081,0.395662368,0.577373974,0.692848769,0.777842907,0.841148886,0.888042204
+PubMed-Embrase,Factorisation (latent factors=50),LDA_50,104,0.036342321,0.113716295,0.253810082,0.479484174,0.696951934,0.798358734,0.855216882,0.895662368
+PubMed-Embrase,Factorisation (latent factors=50),LDA_100,99,0.035756155,0.126025791,0.27080891,0.506447831,0.706330598,0.796600234,0.858147714,0.896834701
+PubMed-Embrase,Factorisation (latent factors=50),LDA_200,37,0.198710434,0.414419695,0.588511137,0.747948417,0.829425557,0.875146542,0.897420868,0.913833529
+PubMed-Embrase,Factorisation (latent factors=50),LDA_300,38,0.189917937,0.397420868,0.577373974,0.750293083,0.825908558,0.866354045,0.889800703,0.907385698
+PubMed-Embrase,Factorisation (latent factors=50),LDA_400,40,0.18933177,0.379835873,0.568581477,0.737397421,0.813599062,0.855803048,0.883352872,0.906213365
+PubMed-Embrase,Factorisation (latent factors=50),PCA_tfidf_20,51,0.16940211,0.344665885,0.499413834,0.635990621,0.717467761,0.779601407,0.829425557,0.889214537
+PubMed-Embrase,Factorisation (latent factors=50),PCA_count_20,507,0,0.001172333,0.005275498,0.008792497,0.056858148,0.124267292,0.203985932,0.284290739
+PubMed-Embrase,Factorisation (latent factors=50),PCA_tfidf_50,89,0.124267292,0.246776084,0.372215709,0.536928488,0.682297773,0.759671747,0.824736225,0.881008206
+PubMed-Embrase,Factorisation (latent factors=50),PCA_count_50,1274,0,0,0,0.006447831,0.040445487,0.083821805,0.118405627,0.15123095
+PubMed-Embrase,Factorisation (latent factors=50),PCA_tfidf_100,74,0.131887456,0.261430246,0.415005862,0.566822978,0.68112544,0.764947245,0.825322392,0.873974209
+PubMed-Embrase,Factorisation (latent factors=50),PCA_count_100,1413.5,0,0,0,0.000586166,0.024618992,0.055685815,0.084407972,0.118991794
+PubMed-Embrase,Factorisation (latent factors=50),PCA_tfidf_200,35.5,0.198710434,0.409730363,0.594372802,0.747948417,0.829425557,0.875146542,0.896834701,0.915005862
+PubMed-Embrase,Factorisation (latent factors=50),PCA_count_200,1437,0,0,0,0,0.011723329,0.035169988,0.060375147,0.093200469
+PubMed-Embrase,Factorisation (latent factors=50),PCA_tfidf_300,38,0.189917937,0.393903869,0.577373974,0.748534584,0.825322392,0.865767878,0.88862837,0.907385698
+PubMed-Embrase,Factorisation (latent factors=50),PCA_count_300,1811.5,0,0,0,0,0,0.022274326,0.046307151,0.063305979
+PubMed-Embrase,Factorisation (latent factors=50),PCA_tfidf_400,40,0.186987104,0.379835873,0.566822978,0.733294256,0.813012896,0.855216882,0.883352872,0.906213365
+PubMed-Embrase,Factorisation (latent factors=50),PCA_count_400,1814.5,0,0,0,0,0.000586166,0.023446659,0.047479484,0.066236811
+PubMed-Embrase,Factorisation (latent factors=50),fullDim_Binary,20482,0.000586166,0.008792497,0.016412661,0.027549824,0.046893318,0.062719812,0.072684642,0.080890973
+PubMed-Embrase,Factorisation (latent factors=50),fullDim_Count,59717.5,0,0,0,0,0,0,0,0
+PubMed-Embrase,Factorisation (latent factors=50),fullDim_Tfidf,241,0.13130129,0.243259086,0.369871043,0.437280188,0.466588511,0.483001172,0.502344666,0.515240328
+PubMed-Embrase,Document similarity (Euclidean distance),LDA_20,527.5,0.026963658,0.051582649,0.08968347,0.165885111,0.235638921,0.293669402,0.337631887,0.38042204
+PubMed-Embrase,Document similarity (Euclidean distance),LDA_50,500.5,0.031066823,0.058616647,0.1014068,0.166471278,0.228018757,0.277256741,0.315357562,0.351113716
+PubMed-Embrase,Document similarity (Euclidean distance),LDA_100,314,0.055099648,0.095545135,0.153575615,0.252051583,0.327080891,0.39038687,0.447831184,0.489449004
+PubMed-Embrase,Document similarity (Euclidean distance),LDA_200,330,0.055099648,0.107268464,0.178194607,0.277256741,0.337045721,0.399765533,0.442555686,0.479484174
+PubMed-Embrase,Document similarity (Euclidean distance),LDA_300,375,0.050410317,0.092614302,0.150644783,0.228018757,0.287807737,0.349355217,0.4003517,0.442555686
+PubMed-Embrase,Document similarity (Euclidean distance),LDA_400,368.5,0.078546307,0.117819461,0.162954279,0.256154748,0.317702227,0.379835873,0.416178195,0.451934349
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_tfidf_20,247,0.072098476,0.13950762,0.1992966,0.300117233,0.378077374,0.443141852,0.504103165,0.543962485
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_count_20,665,0.083235639,0.13130129,0.175849941,0.249706917,0.298358734,0.332356389,0.369871043,0.396248535
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_tfidf_50,230.5,0.070926143,0.13130129,0.20926143,0.32063306,0.412075029,0.466588511,0.522860492,0.57971864
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_count_50,610,0.108440797,0.144196952,0.191676436,0.259671747,0.311254396,0.354044549,0.379249707,0.405627198
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_tfidf_100,223.5,0.079132474,0.133645955,0.210433763,0.332942556,0.411488863,0.48007034,0.527549824,0.568581477
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_count_100,593,0.102579132,0.155920281,0.203985932,0.273739742,0.319460727,0.354630715,0.388042204,0.409144197
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_tfidf_200,229.5,0.086166471,0.14947245,0.230363423,0.336459555,0.417350528,0.466002345,0.524032825,0.57971864
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_count_200,571.5,0.103165299,0.154747948,0.222157093,0.283704572,0.322391559,0.362837046,0.399765533,0.424970692
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_tfidf_300,230,0.094372802,0.160609613,0.229777257,0.344079719,0.416764361,0.465416178,0.522274326,0.569167644
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_count_300,566.5,0.107268464,0.152403283,0.22098476,0.291324736,0.332942556,0.381594373,0.409730363,0.444314185
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_tfidf_400,238,0.098475967,0.166471278,0.24091442,0.342907386,0.415592028,0.463657679,0.512895662,0.566236811
+PubMed-Embrase,Document similarity (Euclidean distance),PCA_count_400,591,0.107268464,0.155334115,0.213364596,0.287221571,0.336459555,0.37866354,0.415592028,0.441969519
+PubMed-Embrase,Document similarity (Euclidean distance),fullDim_Binary,3499,0.118405627,0.155334115,0.193434936,0.222157093,0.243845252,0.259671747,0.276670574,0.286635404
+PubMed-Embrase,Document similarity (Euclidean distance),fullDim_Count,1981,0.126025791,0.183470106,0.228604924,0.287807737,0.322977726,0.351113716,0.366940211,0.376905041
+PubMed-Embrase,Document similarity (Euclidean distance),fullDim_Tfidf,60,0.206916764,0.332942556,0.474794842,0.601992966,0.688745604,0.748534584,0.790152403,0.82063306
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),LDA_20,594.5,0.014654162,0.033411489,0.072098476,0.137162954,0.203985932,0.265533411,0.309495897,0.351113716
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),LDA_50,573.5,0.018171161,0.042203986,0.080890973,0.135404455,0.191676436,0.228604924,0.273153576,0.315943728
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),LDA_100,356,0.038686987,0.079132474,0.126611958,0.203399766,0.274912075,0.342907386,0.41031653,0.460726846
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),LDA_200,393,0.049237984,0.094372802,0.151817116,0.233294256,0.305978898,0.35873388,0.402110199,0.440797186
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),LDA_300,420.5,0.037514654,0.077373974,0.130128957,0.201641266,0.263774912,0.314771395,0.367526377,0.415592028
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),LDA_400,432,0.055685815,0.101992966,0.147713951,0.224501758,0.279601407,0.331770223,0.379835873,0.419109027
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_tfidf_20,280.5,0.063305979,0.118405627,0.184642438,0.27901524,0.35873388,0.414419695,0.469519343,0.519343494
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_count_20,672.5,0.101992966,0.158264947,0.197538101,0.267291911,0.319460727,0.348182884,0.373388042,0.394490035
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_tfidf_50,257.5,0.051582649,0.105509965,0.180539273,0.287807737,0.372215709,0.436694021,0.495310668,0.550410317
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_count_50,626,0.123094959,0.166471278,0.212192263,0.281946073,0.324736225,0.361078546,0.385697538,0.403868699
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_tfidf_100,253,0.063305979,0.116060961,0.174677608,0.288393904,0.38042204,0.443728019,0.497655334,0.545720985
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_count_100,575,0.123094959,0.179953107,0.229777257,0.296600234,0.327667057,0.361078546,0.391559203,0.413833529
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_tfidf_200,256,0.068581477,0.130128957,0.196951934,0.3007034,0.382766706,0.444900352,0.494138335,0.550996483
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_count_200,569,0.123681125,0.172919109,0.237983587,0.299531067,0.334701055,0.369871043,0.399179367,0.431418523
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_tfidf_300,254,0.075615475,0.140093787,0.206916764,0.311840563,0.386869871,0.440797186,0.495310668,0.542790152
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_count_300,582.5,0.124853458,0.174091442,0.235052755,0.304220399,0.351699883,0.385111372,0.414419695,0.437866354
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_tfidf_400,263.5,0.079132474,0.147127784,0.218053927,0.317702227,0.387456038,0.434349355,0.484173505,0.53985932
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),PCA_count_400,622,0.124267292,0.175849941,0.228018757,0.297186401,0.347010551,0.386869871,0.415005862,0.437280188
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),fullDim_Binary,3453,0.140679953,0.185814771,0.215709261,0.247948417,0.267291911,0.283118406,0.293669402,0.306565064
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),fullDim_Count,2271,0.144196952,0.201641266,0.244431419,0.299531067,0.330011723,0.349355217,0.363423212,0.377491208
+PubMed-Embrase,Document similarity (Squared-Euclidean distance),fullDim_Tfidf,60,0.208089097,0.331770223,0.471277843,0.601992966,0.688745604,0.749706917,0.791324736,0.82063306
+PubMed-Embrase,Document similarity (Cosine similarity),LDA_20,547.5,0.014654162,0.043376319,0.084994138,0.162368113,0.225087925,0.277256741,0.323563892,0.359320047
+PubMed-Embrase,Document similarity (Cosine similarity),LDA_50,506,0.024032825,0.046307151,0.08968347,0.147127784,0.203985932,0.261430246,0.309495897,0.356389215
+PubMed-Embrase,Document similarity (Cosine similarity),LDA_100,305.5,0.050996483,0.096717468,0.151817116,0.245017585,0.321219226,0.376318875,0.446658851,0.496483001
+PubMed-Embrase,Document similarity (Cosine similarity),LDA_200,297,0.052754982,0.107268464,0.169988277,0.276084408,0.339976553,0.407971864,0.456623681,0.504103165
+PubMed-Embrase,Document similarity (Cosine similarity),LDA_300,330.5,0.042790152,0.093200469,0.150058617,0.237983587,0.302461899,0.375732708,0.427315358,0.477139508
+PubMed-Embrase,Document similarity (Cosine similarity),LDA_400,310,0.056858148,0.10961313,0.177022274,0.286049238,0.36049238,0.413833529,0.454865182,0.492379836
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_tfidf_20,238,0.064478312,0.128370457,0.199882767,0.300117233,0.386869871,0.460726846,0.512309496,0.556271981
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_count_20,715.5,0.031066823,0.061547479,0.097889801,0.16119578,0.205744431,0.250293083,0.287221571,0.317702227
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_tfidf_50,189,0.075029308,0.143610785,0.222157093,0.355803048,0.441383353,0.518757327,0.571512309,0.61957796
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_count_50,576,0.052754982,0.09144197,0.134232122,0.195779601,0.246776084,0.279601407,0.313012896,0.35052755
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_tfidf_100,177.5,0.096717468,0.162954279,0.253810082,0.384525205,0.471277843,0.526963658,0.587338804,0.633059789
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_count_100,340,0.062719812,0.116647128,0.170574443,0.262602579,0.324736225,0.385111372,0.43024619,0.470691676
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_tfidf_200,162,0.105509965,0.184056272,0.290152403,0.403868699,0.488276671,0.550996483,0.600820633,0.645369285
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_count_200,275,0.067409144,0.122508792,0.198710434,0.311254396,0.373388042,0.435521688,0.475967175,0.515240328
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_tfidf_300,155,0.116060961,0.20926143,0.302461899,0.417350528,0.492379836,0.568581477,0.610785463,0.662368113
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_count_300,230,0.077373974,0.140093787,0.226846424,0.332356389,0.415592028,0.474208675,0.517584994,0.552754982
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_tfidf_400,150.5,0.123094959,0.217467761,0.317702227,0.426143025,0.5,0.573856975,0.626025791,0.678194607
+PubMed-Embrase,Document similarity (Cosine similarity),PCA_count_400,220.5,0.084994138,0.150644783,0.239742087,0.347596717,0.439038687,0.486518171,0.52989449,0.569167644
+PubMed-Embrase,Document similarity (Cosine similarity),fullDim_Binary,119,0.167643611,0.26905041,0.36049238,0.468933177,0.552168816,0.607854631,0.643024619,0.67936694
+PubMed-Embrase,Document similarity (Cosine similarity),fullDim_Count,132,0.151817116,0.262016413,0.344079719,0.450762016,0.525205158,0.579132474,0.625439625,0.664126612
+PubMed-Embrase,Document similarity (Cosine similarity),fullDim_Tfidf,74.5,0.185228605,0.302461899,0.424970692,0.555685815,0.648886284,0.712778429,0.757913247,0.795427902
+Cochrane,Factorisation (latent factors=5),LDA_20,25276.5,0,0,0,0,0,0,0,0.014285714
+Cochrane,Factorisation (latent factors=5),LDA_50,52058,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=5),LDA_100,70185,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=5),LDA_200,39757.5,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=5),LDA_300,39084.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=5),LDA_400,43540,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=5),PCA_tfidf_20,45462.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=5),PCA_count_20,68596,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=5),PCA_tfidf_50,47943,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=5),PCA_count_50,64644.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=5),PCA_tfidf_100,36462,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=5),PCA_count_100,60941.5,0,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=5),PCA_tfidf_200,34030,0,0,0,0,0,0,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=5),PCA_count_200,61596.5,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=5),PCA_tfidf_300,35077.5,0,0,0,0,0,0,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=5),PCA_count_300,67544.5,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=5),PCA_tfidf_400,32753,0,0,0,0,0.014285714,0.014285714,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=5),PCA_count_400,61465.5,0,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=5),fullDim_Binary,71929,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=5),fullDim_Count,78336,0,0,0,0.014285714,0.014285714,0.014285714,0.028571429,0.028571429
+Cochrane,Factorisation (latent factors=5),fullDim_Tfidf,61400,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),LDA_20,11555,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.028571429,0.028571429
+Cochrane,Factorisation (latent factors=10),LDA_50,24394,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),LDA_100,73407.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),LDA_200,39768,0,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=10),LDA_300,38547.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),LDA_400,42924.5,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=10),PCA_tfidf_20,50926,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),PCA_count_20,56576,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),PCA_tfidf_50,43382,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),PCA_count_50,54657,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=10),PCA_tfidf_100,36579.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),PCA_count_100,66955.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),PCA_tfidf_200,34307,0,0,0,0,0,0,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=10),PCA_count_200,62366,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),PCA_tfidf_300,35563,0,0,0,0,0,0,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=10),PCA_count_300,69342.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),PCA_tfidf_400,32133.5,0,0,0,0,0.014285714,0.014285714,0.028571429,0.028571429
+Cochrane,Factorisation (latent factors=10),PCA_count_400,65315,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=10),fullDim_Binary,64347,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=10),fullDim_Count,68950,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=10),fullDim_Tfidf,64174.5,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=20),LDA_20,5206.5,0,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=20),LDA_50,8993.5,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=20),LDA_100,71109,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),LDA_200,39576,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=20),LDA_300,38588.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),LDA_400,43813.5,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=20),PCA_tfidf_20,34790.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),PCA_count_20,58595.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),PCA_tfidf_50,48457.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),PCA_count_50,57304,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),PCA_tfidf_100,36590.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),PCA_count_100,59608,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),PCA_tfidf_200,33945.5,0,0,0,0,0,0,0,0.014285714
+Cochrane,Factorisation (latent factors=20),PCA_count_200,51045.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),PCA_tfidf_300,34766,0,0,0,0,0,0.014285714,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=20),PCA_count_300,65618,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),PCA_tfidf_400,31571.5,0,0,0,0,0.014285714,0.014285714,0.028571429,0.028571429
+Cochrane,Factorisation (latent factors=20),PCA_count_400,64496.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=20),fullDim_Binary,62976.5,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=20),fullDim_Count,69544,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=20),fullDim_Tfidf,59287,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=30),LDA_20,5124,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=30),LDA_50,9901,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=30),LDA_100,70402.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),LDA_200,39479.5,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=30),LDA_300,38580,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),LDA_400,43687,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=30),PCA_tfidf_20,33031.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),PCA_count_20,62861.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),PCA_tfidf_50,48851.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),PCA_count_50,59827.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),PCA_tfidf_100,36310.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),PCA_count_100,50046,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),PCA_tfidf_200,33956.5,0,0,0,0,0,0,0,0.014285714
+Cochrane,Factorisation (latent factors=30),PCA_count_200,59348,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),PCA_tfidf_300,35244.5,0,0,0,0,0,0.014285714,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=30),PCA_count_300,48935.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),PCA_tfidf_400,31878.5,0,0,0,0,0.014285714,0.014285714,0.028571429,0.028571429
+Cochrane,Factorisation (latent factors=30),PCA_count_400,59831,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=30),fullDim_Binary,64710,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=30),fullDim_Count,61446,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=30),fullDim_Tfidf,78090,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=40),LDA_20,5125.5,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=40),LDA_50,9535.5,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=40),LDA_100,70020.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),LDA_200,39211,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=40),LDA_300,38506.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),PCA_tfidf_20,25212,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),PCA_count_20,63130.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),PCA_tfidf_50,57579.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),PCA_count_50,51789,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),PCA_tfidf_100,36486,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),PCA_count_100,62657.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),PCA_tfidf_200,34226.5,0,0,0,0,0,0,0,0.014285714
+Cochrane,Factorisation (latent factors=40),PCA_count_200,69029.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),PCA_tfidf_300,34707.5,0,0,0,0,0,0.014285714,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=40),PCA_count_300,63578,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=40),fullDim_Binary,54554.5,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=40),fullDim_Count,71184,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=40),fullDim_Tfidf,65195.5,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=50),LDA_20,5299.5,0,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=50),LDA_50,10004.5,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=50),LDA_100,69748.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),LDA_200,39660,0,0,0,0,0,0.014285714,0.014285714,0.014285714
+Cochrane,Factorisation (latent factors=50),LDA_300,38051.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),PCA_tfidf_20,23517,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),PCA_count_20,75250.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),PCA_tfidf_50,52582.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),PCA_count_50,56140,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),PCA_tfidf_100,36655,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),PCA_count_100,46255.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),PCA_tfidf_200,34196,0,0,0,0,0,0,0,0.014285714
+Cochrane,Factorisation (latent factors=50),PCA_count_200,58904,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),PCA_tfidf_300,34860,0,0,0,0,0,0.014285714,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=50),PCA_count_300,67712.5,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),fullDim_Binary,64502,0,0,0,0,0,0,0,0
+Cochrane,Factorisation (latent factors=50),fullDim_Count,70409,0,0,0,0.014285714,0.014285714,0.014285714,0.014285714,0.028571429
+Cochrane,Factorisation (latent factors=50),fullDim_Tfidf,80512.5,0,0,0,0,0,0,0,0
+Cochrane,Document similarity (Euclidean distance),LDA_20,2401.5,0.057142857,0.1,0.114285714,0.171428571,0.228571429,0.242857143,0.242857143,0.257142857
+Cochrane,Document similarity (Euclidean distance),LDA_50,2117.5,0.128571429,0.142857143,0.2,0.228571429,0.271428571,0.314285714,0.371428571,0.4
+Cochrane,Document similarity (Euclidean distance),LDA_100,1960.5,0.114285714,0.185714286,0.257142857,0.285714286,0.314285714,0.342857143,0.342857143,0.342857143
+Cochrane,Document similarity (Euclidean distance),LDA_200,1062,0.1,0.128571429,0.171428571,0.242857143,0.257142857,0.271428571,0.342857143,0.371428571
+Cochrane,Document similarity (Euclidean distance),LDA_300,3318.5,0.028571429,0.085714286,0.142857143,0.214285714,0.228571429,0.242857143,0.271428571,0.285714286
+Cochrane,Document similarity (Euclidean distance),LDA_400,3663,0.042857143,0.1,0.171428571,0.242857143,0.257142857,0.257142857,0.285714286,0.285714286
+Cochrane,Document similarity (Euclidean distance),PCA_tfidf_20,1332.5,0.142857143,0.228571429,0.285714286,0.314285714,0.342857143,0.371428571,0.371428571,0.385714286
+Cochrane,Document similarity (Euclidean distance),PCA_count_20,17705,0,0.014285714,0.042857143,0.042857143,0.042857143,0.085714286,0.085714286,0.1
+Cochrane,Document similarity (Euclidean distance),PCA_tfidf_50,401.5,0.157142857,0.271428571,0.314285714,0.314285714,0.357142857,0.371428571,0.485714286,0.485714286
+Cochrane,Document similarity (Euclidean distance),PCA_count_50,13864.5,0.057142857,0.071428571,0.071428571,0.128571429,0.142857143,0.185714286,0.2,0.228571429
+Cochrane,Document similarity (Euclidean distance),PCA_tfidf_100,353.5,0.142857143,0.257142857,0.342857143,0.357142857,0.4,0.442857143,0.471428571,0.5
+Cochrane,Document similarity (Euclidean distance),PCA_count_100,12401,0.042857143,0.1,0.114285714,0.157142857,0.2,0.214285714,0.214285714,0.214285714
+Cochrane,Document similarity (Euclidean distance),PCA_tfidf_200,362,0.171428571,0.242857143,0.3,0.342857143,0.4,0.428571429,0.442857143,0.485714286
+Cochrane,Document similarity (Euclidean distance),PCA_count_200,18297.5,0.085714286,0.128571429,0.185714286,0.185714286,0.228571429,0.242857143,0.257142857,0.257142857
+Cochrane,Document similarity (Euclidean distance),PCA_tfidf_300,475.5,0.142857143,0.242857143,0.314285714,0.371428571,0.4,0.414285714,0.428571429,0.457142857
+Cochrane,Document similarity (Euclidean distance),PCA_count_300,17403.5,0.1,0.171428571,0.185714286,0.185714286,0.214285714,0.228571429,0.242857143,0.242857143
+Cochrane,Document similarity (Euclidean distance),PCA_tfidf_400,454,0.114285714,0.257142857,0.285714286,0.371428571,0.4,0.414285714,0.414285714,0.471428571
+Cochrane,Document similarity (Euclidean distance),PCA_count_400,17213,0.1,0.185714286,0.185714286,0.214285714,0.214285714,0.228571429,0.228571429,0.228571429
+Cochrane,Document similarity (Euclidean distance),fullDim_Binary,7897.5,0,0.028571429,0.057142857,0.1,0.114285714,0.157142857,0.185714286,0.185714286
+Cochrane,Document similarity (Euclidean distance),fullDim_Count,17032.5,0.071428571,0.128571429,0.157142857,0.157142857,0.2,0.228571429,0.228571429,0.228571429
+Cochrane,Document similarity (Euclidean distance),fullDim_Tfidf,67,0.171428571,0.242857143,0.471428571,0.6,0.7,0.728571429,0.728571429,0.742857143
+Cochrane,Document similarity (Squared-Euclidean distance),LDA_20,2319.5,0.071428571,0.1,0.128571429,0.128571429,0.2,0.214285714,0.214285714,0.228571429
+Cochrane,Document similarity (Squared-Euclidean distance),LDA_50,2160.5,0.085714286,0.157142857,0.185714286,0.228571429,0.242857143,0.328571429,0.357142857,0.385714286
+Cochrane,Document similarity (Squared-Euclidean distance),LDA_100,1907.5,0.114285714,0.214285714,0.242857143,0.242857143,0.314285714,0.328571429,0.328571429,0.328571429
+Cochrane,Document similarity (Squared-Euclidean distance),LDA_200,1048,0.1,0.128571429,0.171428571,0.228571429,0.242857143,0.271428571,0.328571429,0.342857143
+Cochrane,Document similarity (Squared-Euclidean distance),LDA_300,3656,0.028571429,0.071428571,0.114285714,0.214285714,0.214285714,0.228571429,0.271428571,0.285714286
+Cochrane,Document similarity (Squared-Euclidean distance),LDA_400,3776.5,0.042857143,0.1,0.157142857,0.214285714,0.257142857,0.257142857,0.271428571,0.285714286
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_tfidf_20,1302,0.157142857,0.214285714,0.3,0.328571429,0.342857143,0.357142857,0.371428571,0.4
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_count_20,19790.5,0,0,0,0.042857143,0.042857143,0.057142857,0.057142857,0.057142857
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_tfidf_50,322,0.157142857,0.285714286,0.3,0.314285714,0.328571429,0.4,0.457142857,0.485714286
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_count_50,20271.5,0.014285714,0.042857143,0.042857143,0.085714286,0.114285714,0.142857143,0.157142857,0.171428571
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_tfidf_100,271.5,0.142857143,0.257142857,0.342857143,0.357142857,0.371428571,0.428571429,0.485714286,0.514285714
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_count_100,19743.5,0.042857143,0.057142857,0.1,0.114285714,0.142857143,0.171428571,0.2,0.2
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_tfidf_200,403.5,0.171428571,0.271428571,0.3,0.342857143,0.414285714,0.428571429,0.442857143,0.457142857
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_count_200,24649.5,0.042857143,0.071428571,0.157142857,0.157142857,0.214285714,0.228571429,0.257142857,0.257142857
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_tfidf_300,493,0.128571429,0.242857143,0.314285714,0.371428571,0.4,0.414285714,0.428571429,0.442857143
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_count_300,23874,0.085714286,0.142857143,0.171428571,0.185714286,0.185714286,0.228571429,0.242857143,0.242857143
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_tfidf_400,464,0.114285714,0.257142857,0.285714286,0.371428571,0.414285714,0.414285714,0.414285714,0.457142857
+Cochrane,Document similarity (Squared-Euclidean distance),PCA_count_400,25246.5,0.085714286,0.142857143,0.171428571,0.185714286,0.2,0.214285714,0.228571429,0.242857143
+Cochrane,Document similarity (Squared-Euclidean distance),fullDim_Binary,8137.5,0,0.028571429,0.071428571,0.1,0.114285714,0.142857143,0.185714286,0.185714286
+Cochrane,Document similarity (Squared-Euclidean distance),fullDim_Count,18507,0.085714286,0.114285714,0.157142857,0.157142857,0.214285714,0.228571429,0.228571429,0.228571429
+Cochrane,Document similarity (Squared-Euclidean distance),fullDim_Tfidf,67.5,0.171428571,0.242857143,0.471428571,0.6,0.7,0.728571429,0.728571429,0.742857143
+Cochrane,Document similarity (Cosine similarity),LDA_20,2626,0.042857143,0.071428571,0.1,0.142857143,0.171428571,0.214285714,0.228571429,0.242857143
+Cochrane,Document similarity (Cosine similarity),LDA_50,1208.5,0.085714286,0.142857143,0.185714286,0.214285714,0.228571429,0.271428571,0.328571429,0.357142857
+Cochrane,Document similarity (Cosine similarity),LDA_100,1602,0.1,0.2,0.242857143,0.285714286,0.3,0.3,0.3,0.314285714
+Cochrane,Document similarity (Cosine similarity),LDA_200,516.5,0.071428571,0.157142857,0.214285714,0.3,0.357142857,0.4,0.428571429,0.457142857
+Cochrane,Document similarity (Cosine similarity),LDA_300,712,0.057142857,0.071428571,0.157142857,0.214285714,0.214285714,0.242857143,0.271428571,0.314285714
+Cochrane,Document similarity (Cosine similarity),LDA_400,589,0.114285714,0.128571429,0.171428571,0.242857143,0.3,0.314285714,0.342857143,0.371428571
+Cochrane,Document similarity (Cosine similarity),PCA_tfidf_20,1748,0.071428571,0.185714286,0.228571429,0.3,0.328571429,0.371428571,0.4,0.414285714
+Cochrane,Document similarity (Cosine similarity),PCA_count_20,13340.5,0,0.014285714,0.028571429,0.057142857,0.071428571,0.085714286,0.114285714,0.142857143
+Cochrane,Document similarity (Cosine similarity),PCA_tfidf_50,502,0.157142857,0.228571429,0.3,0.357142857,0.371428571,0.414285714,0.428571429,0.442857143
+Cochrane,Document similarity (Cosine similarity),PCA_count_50,5904.5,0.028571429,0.085714286,0.157142857,0.185714286,0.228571429,0.257142857,0.271428571,0.271428571
+Cochrane,Document similarity (Cosine similarity),PCA_tfidf_100,303,0.157142857,0.242857143,0.314285714,0.385714286,0.385714286,0.414285714,0.442857143,0.5
+Cochrane,Document similarity (Cosine similarity),PCA_count_100,2970.5,0.071428571,0.114285714,0.171428571,0.228571429,0.242857143,0.271428571,0.285714286,0.3
+Cochrane,Document similarity (Cosine similarity),PCA_tfidf_200,222,0.157142857,0.242857143,0.314285714,0.371428571,0.428571429,0.485714286,0.514285714,0.542857143
+Cochrane,Document similarity (Cosine similarity),PCA_count_200,1779.5,0.1,0.171428571,0.214285714,0.285714286,0.3,0.3,0.328571429,0.342857143
+Cochrane,Document similarity (Cosine similarity),PCA_tfidf_300,218.5,0.185714286,0.242857143,0.3,0.371428571,0.457142857,0.485714286,0.514285714,0.528571429
+Cochrane,Document similarity (Cosine similarity),PCA_count_300,1312.5,0.142857143,0.185714286,0.242857143,0.285714286,0.3,0.3,0.328571429,0.328571429
+Cochrane,Document similarity (Cosine similarity),PCA_tfidf_400,156,0.157142857,0.242857143,0.314285714,0.428571429,0.485714286,0.542857143,0.557142857,0.6
+Cochrane,Document similarity (Cosine similarity),PCA_count_400,1060,0.157142857,0.185714286,0.242857143,0.285714286,0.3,0.314285714,0.357142857,0.357142857
+Cochrane,Document similarity (Cosine similarity),fullDim_Binary,1672.5,0.1,0.2,0.271428571,0.342857143,0.371428571,0.371428571,0.371428571,0.371428571
+Cochrane,Document similarity (Cosine similarity),fullDim_Count,396.5,0.128571429,0.214285714,0.257142857,0.314285714,0.357142857,0.428571429,0.442857143,0.485714286
+Cochrane,Document similarity (Cosine similarity),fullDim_Tfidf,67,0.171428571,0.242857143,0.471428571,0.628571429,0.7,0.728571429,0.728571429,0.742857143
