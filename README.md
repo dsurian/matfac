@@ -58,7 +58,9 @@ Note that you have to import NumPy first as *np* at the beginning of your code. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**numIter** : *int* value, maximum number of iterations.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**alpha_par**, **lambda_par**, **lambda_t_par** : *float* value, regularisation parameters.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**alpha_par**: *float* value, learning rate. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**lambda_par**, **lambda_t_par** : *float* value, regularisation parameters.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**T_est** : *ndarray*, [*n_samples*, *n_features_2*]. This matrix is initialised to zero and will hold the predicted **T**.
 
