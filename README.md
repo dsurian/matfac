@@ -71,4 +71,4 @@ Note that you have to import NumPy first as *np* at the beginning of your code. 
 
 # Reference
 ---
-1. *A shared latent space matrix factorisation method for recommending new trial evidence for systematic review updates*. Didi Surian, Adam G. Dunn, Liat Orenstein, Rabia Bashir, Enrico Coiera, Florence T. Bourgeois. [*Submitted to the Journal of Biomedical Informatics, 2017*]. ArXiv version: https://arxiv.org/pdf/1709.06758.pdf
+1. *A shared latent space matrix factorisation method for recommending new trial evidence for systematic review updates*. Didi Surian, Adam G. Dunn, Liat Orenstein, Rabia Bashir, Enrico Coiera, Florence T. Bourgeois. Journal of Biomedical Informatics Vol. 79, March 2018, p. 32-40
